@@ -105,7 +105,7 @@ void escalonarMatriz(double**p,int filas,int columnas){
 			if (bandera==0){
 				i=i-1;
 				contador++;
-				j=j+contador;
+				j=j+1;
 			}
 			else{
 				eliminarColumna(p,filas,columnas,i,j);
